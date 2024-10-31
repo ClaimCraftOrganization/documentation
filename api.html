@@ -2979,7 +2979,13 @@
 													<div>
 														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
 														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
+															>string</span
+														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi">
+															<!-- -->&lt;<!-- -->email<!-- -->&gt;<!-- --> </span
+														><span>
+															<span class="sc-CNKsk sc-fIfZzT hPAOR diHVZf">
+																<!-- -->non-empty<!-- -->
+															</span></span
 														>
 													</div>
 													<div>
@@ -3008,7 +3014,11 @@
 													<div>
 														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
 														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
+															>string</span
+														><span>
+															<span class="sc-CNKsk sc-fIfZzT hPAOR diHVZf">
+																<!-- -->non-empty<!-- -->
+															</span></span
 														>
 													</div>
 													<div>
@@ -3162,7 +3172,7 @@
 																					>"email"</span
 																				>:
 																				<span class="token string"
-																					>&quot;string&quot;</span
+																					>&quot;user@example.com&quot;</span
 																				><span class="token punctuation"
 																					>,</span
 																				>
@@ -31848,8 +31858,8 @@
 									required: ["email", "password"],
 									type: "object",
 									properties: {
-										email: { type: "string", nullable: true },
-										password: { type: "string", nullable: true },
+										email: { minLength: 1, type: "string", format: "email" },
+										password: { minLength: 1, type: "string" },
 									},
 									additionalProperties: false,
 								},
