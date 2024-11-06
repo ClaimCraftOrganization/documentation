@@ -1492,6 +1492,16 @@
 				font-family: Montserrat, sans-serif;
 				margin: 0;
 			} /*!sc*/
+			.jkswBz {
+				font-size: 0.929em;
+				line-height: 20px;
+				background-color: #bf581d;
+				color: #ffffff;
+				padding: 3px 10px;
+				text-transform: uppercase;
+				font-family: Montserrat, sans-serif;
+				margin: 0;
+			} /*!sc*/
 			.fzqXJO {
 				font-size: 0.929em;
 				line-height: 20px;
@@ -1513,7 +1523,7 @@
 				margin: 0;
 			} /*!sc*/
 			data-styled.g113[id="sc-txhaY"] {
-				content: "cpnVKx,IVbnb,fzqXJO,gtVIQH,";
+				content: "cpnVKx,IVbnb,jkswBz,fzqXJO,gtVIQH,";
 			} /*!sc*/
 			.ddApzj {
 				position: absolute;
@@ -1975,7 +1985,7 @@
 									<li
 										tabindex="0"
 										depth="2"
-										data-item-id="tag/AccountEndpoints/paths/~1api~1account~1check-token/get"
+										data-item-id="tag/AccountEndpoints/paths/~1api~1account~1get-info/get"
 										role="menuitem"
 										class="sc-ljhlHD gSwPLF"
 									>
@@ -1988,7 +1998,47 @@
 												tabindex="0"
 												width="calc(100% - 38px)"
 												class="sc-enMaOJ bBONey"
-												>/api/account/check-token</span
+												>/api/account/get-info</span
+											></label
+										>
+									</li>
+									<li
+										tabindex="0"
+										depth="2"
+										data-item-id="tag/AccountEndpoints/paths/~1api~1account~1check-valid-email/get"
+										role="menuitem"
+										class="sc-ljhlHD gSwPLF"
+									>
+										<label class="sc-bAEjGW dnJKVb -depth2"
+											><span
+												type="get"
+												class="sc-erSfwj gYaAxf operation-type get"
+												>get</span
+											><span
+												tabindex="0"
+												width="calc(100% - 38px)"
+												class="sc-enMaOJ bBONey"
+												>/api/account/check-valid-email</span
+											></label
+										>
+									</li>
+									<li
+										tabindex="0"
+										depth="2"
+										data-item-id="tag/AccountEndpoints/paths/~1api~1account~1add-claim-to-user/patch"
+										role="menuitem"
+										class="sc-ljhlHD gSwPLF"
+									>
+										<label class="sc-bAEjGW dnJKVb -depth2"
+											><span
+												type="patch"
+												class="sc-erSfwj gYaAxf operation-type patch"
+												>patch</span
+											><span
+												tabindex="0"
+												width="calc(100% - 38px)"
+												class="sc-enMaOJ bBONey"
+												>/api/account/add-claim-to-user</span
 											></label
 										>
 									</li>
@@ -2202,7 +2252,7 @@
 									<li
 										tabindex="0"
 										depth="2"
-										data-item-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/get"
+										data-item-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/get"
 										role="menuitem"
 										class="sc-ljhlHD gSwPLF"
 									>
@@ -2215,14 +2265,14 @@
 												tabindex="0"
 												width="calc(100% - 38px)"
 												class="sc-enMaOJ bBONey"
-												>/api/claim-details/{id}</span
+												>/api/claim-details/{claimId}</span
 											></label
 										>
 									</li>
 									<li
 										tabindex="0"
 										depth="2"
-										data-item-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/put"
+										data-item-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/put"
 										role="menuitem"
 										class="sc-ljhlHD gSwPLF"
 									>
@@ -2235,7 +2285,7 @@
 												tabindex="0"
 												width="calc(100% - 38px)"
 												class="sc-enMaOJ bBONey"
-												>/api/claim-details/{id}</span
+												>/api/claim-details/{claimId}</span
 											></label
 										>
 									</li>
@@ -2968,75 +3018,6 @@
 												width="calc(100% - 38px)"
 												class="sc-enMaOJ bBONey"
 												>/api/time-tracking</span
-											></label
-										>
-									</li>
-								</ul>
-							</li>
-							<li
-								tabindex="0"
-								depth="1"
-								data-item-id="tag/UserEndpoints"
-								role="menuitem"
-								class="sc-ljhlHD gSwPLF"
-							>
-								<label class="sc-bAEjGW bgAbkd -depth1"
-									><span
-										width="calc(100% - 38px)"
-										title="UserEndpoints"
-										class="sc-enMaOJ bBONey"
-										>UserEndpoints</span
-									><svg
-										class="sc-cHqXqK gkUOTk"
-										version="1.1"
-										viewBox="0 0 24 24"
-										x="0"
-										xmlns="http://www.w3.org/2000/svg"
-										y="0"
-										aria-hidden="true"
-									>
-										<polygon
-											points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
-										></polygon></svg
-								></label>
-								<ul class="sc-iRVXky kUyAbS">
-									<li
-										tabindex="0"
-										depth="2"
-										data-item-id="tag/UserEndpoints/paths/~1api~1users/get"
-										role="menuitem"
-										class="sc-ljhlHD gSwPLF"
-									>
-										<label class="sc-bAEjGW dnJKVb -depth2"
-											><span
-												type="get"
-												class="sc-erSfwj gYaAxf operation-type get"
-												>get</span
-											><span
-												tabindex="0"
-												width="calc(100% - 38px)"
-												class="sc-enMaOJ bBONey"
-												>/api/users</span
-											></label
-										>
-									</li>
-									<li
-										tabindex="0"
-										depth="2"
-										data-item-id="tag/UserEndpoints/paths/~1api~1users/post"
-										role="menuitem"
-										class="sc-ljhlHD gSwPLF"
-									>
-										<label class="sc-bAEjGW dnJKVb -depth2"
-											><span
-												type="post"
-												class="sc-erSfwj gYaAxf operation-type post"
-												>post</span
-											><span
-												tabindex="0"
-												width="calc(100% - 38px)"
-												class="sc-enMaOJ bBONey"
-												>/api/users</span
 											></label
 										>
 									</li>
@@ -4465,8 +4446,8 @@
 						</div>
 					</div>
 					<div
-						id="tag/AccountEndpoints/paths/~1api~1account~1check-token/get"
-						data-section-id="tag/AccountEndpoints/paths/~1api~1account~1check-token/get"
+						id="tag/AccountEndpoints/paths/~1api~1account~1get-info/get"
+						data-section-id="tag/AccountEndpoints/paths/~1api~1account~1get-info/get"
 						class="sc-dntaoT aYCdu"
 					>
 						<div class="sc-kLhKbu dECWTf">
@@ -4474,51 +4455,37 @@
 								<h2 class="sc-khLCKb wHiQv">
 									<a
 										class="sc-jwIPbr hbTOAm"
-										href="#tag/AccountEndpoints/paths/~1api~1account~1check-token/get"
-										aria-label="tag/AccountEndpoints/paths/~1api~1account~1check-token/get"
+										href="#tag/AccountEndpoints/paths/~1api~1account~1get-info/get"
+										aria-label="tag/AccountEndpoints/paths/~1api~1account~1get-info/get"
 									></a
-									>/api/account/check-token<!-- -->
+									>/api/account/get-info<!-- -->
 								</h2>
-								<div>
-									<h5 class="sc-dpBQxM eJAAZj">
-										query<!-- -->
-										Parameters
-									</h5>
-									<table class="sc-dprtRQ eNFxPe">
-										<tbody>
-											<tr class="last">
-												<td
-													kind="field"
-													title="token"
-													class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-												>
-													<span class="sc-gQaihK kPDxnK"></span
-													><span class="property-name">token</span>
-													<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-														required
-													</div>
-												</td>
-												<td class="sc-fFoeYl cHXoZJ">
-													<div>
-														<div>
-															<span
-																class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"
-															></span
-															><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-																>string</span
-															>
-														</div>
-														<div>
-															<div
-																html=""
-																class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-															></div>
-														</div>
-													</div>
-												</td>
-											</tr>
-										</tbody>
-									</table>
+								<div class="sc-hGNhLO dyzdIR">
+									<div class="sc-jWJSSj jXOga-d">
+										<h5 class="sc-dpBQxM sc-khdDuB eJAAZj ffSXYc">
+											Authorizations:
+										</h5>
+										<svg
+											class="sc-cHqXqK bEpxpV"
+											version="1.1"
+											viewBox="0 0 24 24"
+											x="0"
+											xmlns="http://www.w3.org/2000/svg"
+											y="0"
+											aria-hidden="true"
+										>
+											<polygon
+												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+											></polygon>
+										</svg>
+									</div>
+									<div class="sc-iCjFWQ gQOXJB">
+										<span class="sc-irPVuy eqXCjK"
+											><span class="sc-bqvdXA dIXVzO"
+												><i>cookieJwtAuth</i></span
+											></span
+										>
+									</div>
 								</div>
 								<div>
 									<h3 class="sc-edsqmr dheqgt">Responses</h3>
@@ -4577,8 +4544,7 @@
 									<button class="sc-iPHsxv ebcgbH">
 										<span type="get" class="sc-txhaY IVbnb http-verb get"
 											>get</span
-										><span class="sc-etPtWW iqHzp"
-											>/api/account/check-token</span
+										><span class="sc-etPtWW iqHzp">/api/account/get-info</span
 										><svg
 											class="sc-cHqXqK fmmJjS"
 											style="margin-right: -25px"
@@ -4602,7 +4568,7 @@
 											></div>
 											<div tabindex="0" role="button">
 												<div class="sc-hSyjfr gufODt">
-													<span></span>/api/account/check-token
+													<span></span>/api/account/get-info
 												</div>
 											</div>
 										</div>
@@ -4851,6 +4817,688 @@
 											role="tabpanel"
 											id="panel:R2edgq:1"
 											aria-labelledby="tab:R2edgq:1"
+										></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						id="tag/AccountEndpoints/paths/~1api~1account~1check-valid-email/get"
+						data-section-id="tag/AccountEndpoints/paths/~1api~1account~1check-valid-email/get"
+						class="sc-dntaoT aYCdu"
+					>
+						<div class="sc-kLhKbu dECWTf">
+							<div class="sc-fAUdSK dFrZq">
+								<h2 class="sc-khLCKb wHiQv">
+									<a
+										class="sc-jwIPbr hbTOAm"
+										href="#tag/AccountEndpoints/paths/~1api~1account~1check-valid-email/get"
+										aria-label="tag/AccountEndpoints/paths/~1api~1account~1check-valid-email/get"
+									></a
+									>/api/account/check-valid-email<!-- -->
+								</h2>
+								<div class="sc-hGNhLO dyzdIR">
+									<div class="sc-jWJSSj jXOga-d">
+										<h5 class="sc-dpBQxM sc-khdDuB eJAAZj ffSXYc">
+											Authorizations:
+										</h5>
+										<svg
+											class="sc-cHqXqK bEpxpV"
+											version="1.1"
+											viewBox="0 0 24 24"
+											x="0"
+											xmlns="http://www.w3.org/2000/svg"
+											y="0"
+											aria-hidden="true"
+										>
+											<polygon
+												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+											></polygon>
+										</svg>
+									</div>
+									<div class="sc-iCjFWQ gQOXJB">
+										<span class="sc-irPVuy eqXCjK"
+											><span class="sc-bqvdXA dIXVzO"
+												><i>cookieJwtAuth</i></span
+											></span
+										>
+									</div>
+								</div>
+								<div>
+									<h5 class="sc-dpBQxM eJAAZj">
+										query<!-- -->
+										Parameters
+									</h5>
+									<table class="sc-dprtRQ eNFxPe">
+										<tbody>
+											<tr class="last">
+												<td
+													kind="field"
+													title="email"
+													class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
+												>
+													<span class="sc-gQaihK kPDxnK"></span
+													><span class="property-name">email</span>
+													<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
+														required
+													</div>
+												</td>
+												<td class="sc-fFoeYl cHXoZJ">
+													<div>
+														<div>
+															<span
+																class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"
+															></span
+															><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
+																>string</span
+															>
+														</div>
+														<div>
+															<div
+																html=""
+																class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
+															></div>
+														</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div>
+									<h3 class="sc-edsqmr dheqgt">Responses</h3>
+									<div>
+										<button class="sc-gohMHu cnBopK">
+											<svg
+												class="sc-cHqXqK hmCwJW"
+												version="1.1"
+												viewBox="0 0 24 24"
+												x="0"
+												xmlns="http://www.w3.org/2000/svg"
+												y="0"
+												aria-hidden="true"
+											>
+												<polygon
+													points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+												></polygon></svg
+											><strong class="sc-bKXUjo beMorW">200<!-- --> </strong>
+											<div
+												html="&lt;p&gt;OK&lt;/p&gt;
+"
+												class="sc-epnzzT sc-eMwmJz drsioI dWZUhK sc-drVZOg jtjIAv"
+											>
+												<p>OK</p>
+											</div>
+										</button>
+									</div>
+									<div>
+										<button class="sc-gohMHu fhwTMk">
+											<svg
+												class="sc-cHqXqK kVOWjS"
+												version="1.1"
+												viewBox="0 0 24 24"
+												x="0"
+												xmlns="http://www.w3.org/2000/svg"
+												y="0"
+												aria-hidden="true"
+											>
+												<polygon
+													points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+												></polygon></svg
+											><strong class="sc-bKXUjo beMorW">400<!-- --> </strong>
+											<div
+												html="&lt;p&gt;Bad Request&lt;/p&gt;
+"
+												class="sc-epnzzT sc-eMwmJz drsioI dWZUhK sc-drVZOg jtjIAv"
+											>
+												<p>Bad Request</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="sc-ivxoEo sc-ghWlax gOjFGl oECKJ">
+								<div class="sc-duWCru dWZoid">
+									<button class="sc-iPHsxv ebcgbH">
+										<span type="get" class="sc-txhaY IVbnb http-verb get"
+											>get</span
+										><span class="sc-etPtWW iqHzp"
+											>/api/account/check-valid-email</span
+										><svg
+											class="sc-cHqXqK fmmJjS"
+											style="margin-right: -25px"
+											version="1.1"
+											viewBox="0 0 24 24"
+											x="0"
+											xmlns="http://www.w3.org/2000/svg"
+											y="0"
+											aria-hidden="true"
+										>
+											<polygon
+												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+											></polygon>
+										</svg>
+									</button>
+									<div aria-hidden="true" class="sc-ePpfBx ddApzj">
+										<div class="sc-dwGkES evaCJX">
+											<div
+												html=""
+												class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
+											></div>
+											<div tabindex="0" role="button">
+												<div class="sc-hSyjfr gufODt">
+													<span></span>/api/account/check-valid-email
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 class="sc-keTIit zvQzH">
+										<!-- -->Response samples<!-- -->
+									</h3>
+									<div class="sc-bMTdWJ fbQvpV" data-rttabs="true">
+										<ul class="react-tabs__tab-list" role="tablist">
+											<li
+												class="tab-success react-tabs__tab--selected"
+												role="tab"
+												id="tab:R2eegq:0"
+												aria-selected="true"
+												aria-disabled="false"
+												aria-controls="panel:R2eegq:0"
+												tabindex="0"
+												data-rttab="true"
+											>
+												200
+											</li>
+											<li
+												class="tab-error"
+												role="tab"
+												id="tab:R2eegq:1"
+												aria-selected="false"
+												aria-disabled="false"
+												aria-controls="panel:R2eegq:1"
+												data-rttab="true"
+											>
+												400
+											</li>
+										</ul>
+										<div
+											class="react-tabs__tab-panel react-tabs__tab-panel--selected"
+											role="tabpanel"
+											id="panel:R2eegq:0"
+											aria-labelledby="tab:R2eegq:0"
+										>
+											<div>
+												<div class="sc-Rjrgp dIDLbO">
+													<span class="sc-fufdwm eqWzJe">Content type</span>
+													<div class="sc-UblHX kKXAng">application/json</div>
+												</div>
+												<div class="sc-FFETS kqHNPM">
+													<div class="sc-eDHQDy mMhCU">
+														<div class="sc-uYFMi hhzNne">
+															<button>
+																<div class="sc-eWPXlR ezdXRP">Copy</div>
+															</button>
+														</div>
+														<div class="sc-epnzzT drsioI sc-giBObj iyEpFV">
+															<div class="redoc-json">
+																<code
+																	><button
+																		class="collapser"
+																		aria-label="collapse"
+																	></button
+																	><span class="token punctuation">{</span
+																	><span class="ellipsis"></span>
+																	<ul class="obj collapsible">
+																		<li>
+																			<div class="hoverable">
+																				<span class="property token string"
+																					>"response"</span
+																				>:
+																				<span class="token string"
+																					>&quot;string&quot;</span
+																				>
+																			</div>
+																		</li>
+																	</ul>
+																	<span class="token punctuation">}</span></code
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="react-tabs__tab-panel"
+											role="tabpanel"
+											id="panel:R2eegq:1"
+											aria-labelledby="tab:R2eegq:1"
+										></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						id="tag/AccountEndpoints/paths/~1api~1account~1add-claim-to-user/patch"
+						data-section-id="tag/AccountEndpoints/paths/~1api~1account~1add-claim-to-user/patch"
+						class="sc-dntaoT aYCdu"
+					>
+						<div class="sc-kLhKbu dECWTf">
+							<div class="sc-fAUdSK dFrZq">
+								<h2 class="sc-khLCKb wHiQv">
+									<a
+										class="sc-jwIPbr hbTOAm"
+										href="#tag/AccountEndpoints/paths/~1api~1account~1add-claim-to-user/patch"
+										aria-label="tag/AccountEndpoints/paths/~1api~1account~1add-claim-to-user/patch"
+									></a
+									>/api/account/add-claim-to-user<!-- -->
+								</h2>
+								<div class="sc-hGNhLO dyzdIR">
+									<div class="sc-jWJSSj jXOga-d">
+										<h5 class="sc-dpBQxM sc-khdDuB eJAAZj ffSXYc">
+											Authorizations:
+										</h5>
+										<svg
+											class="sc-cHqXqK bEpxpV"
+											version="1.1"
+											viewBox="0 0 24 24"
+											x="0"
+											xmlns="http://www.w3.org/2000/svg"
+											y="0"
+											aria-hidden="true"
+										>
+											<polygon
+												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+											></polygon>
+										</svg>
+									</div>
+									<div class="sc-iCjFWQ gQOXJB">
+										<span class="sc-irPVuy eqXCjK"
+											><span class="sc-bqvdXA dIXVzO"
+												><i>cookieJwtAuth</i></span
+											></span
+										>
+									</div>
+								</div>
+								<h5 class="sc-dpBQxM eJAAZj">
+									Request Body schema:
+									<span class="sc-dhCplO khtVmz">application/json</span>
+									<div class="sc-CNKsk sc-hGZxvd sc-kLJHhQ hPAOR feFoaC fRACBr">
+										required
+									</div>
+								</h5>
+								<div html="" class="sc-epnzzT sc-eMwmJz drsioI dWZUhK"></div>
+								<table class="sc-dprtRQ eNFxPe">
+									<tbody>
+										<tr class="">
+											<td
+												kind="field"
+												title="userEmail"
+												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
+											>
+												<span class="sc-gQaihK kPDxnK"></span
+												><span class="property-name">userEmail</span>
+												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
+													required
+												</div>
+											</td>
+											<td class="sc-fFoeYl cHXoZJ">
+												<div>
+													<div>
+														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
+														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
+															>string</span
+														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi">
+															<!-- -->&lt;<!-- -->email<!-- -->&gt;<!-- --> </span
+														><span>
+															<span class="sc-CNKsk sc-fIfZzT hPAOR diHVZf">
+																<!-- -->non-empty<!-- -->
+															</span></span
+														>
+													</div>
+													<div>
+														<div
+															html=""
+															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
+														></div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr class="">
+											<td
+												kind="field"
+												title="claimId"
+												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
+											>
+												<span class="sc-gQaihK kPDxnK"></span
+												><span class="property-name">claimId</span>
+												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
+													required
+												</div>
+											</td>
+											<td class="sc-fFoeYl cHXoZJ">
+												<div>
+													<div>
+														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
+														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
+															>string</span
+														><span>
+															<span class="sc-CNKsk sc-fIfZzT hPAOR diHVZf">
+																<!-- -->non-empty<!-- -->
+															</span></span
+														>
+													</div>
+													<div>
+														<div
+															html=""
+															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
+														></div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr class="last">
+											<td
+												kind="field"
+												title="roleInClaim"
+												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
+											>
+												<span class="sc-gQaihK kPDxnK"></span
+												><span class="property-name">roleInClaim</span>
+												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
+													required
+												</div>
+											</td>
+											<td class="sc-fFoeYl cHXoZJ">
+												<div>
+													<div>
+														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
+														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
+															>string</span
+														><span>
+															<span class="sc-CNKsk sc-fIfZzT hPAOR diHVZf">
+																<!-- -->non-empty<!-- -->
+															</span></span
+														>
+													</div>
+													<div>
+														<div
+															html=""
+															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
+														></div>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div>
+									<h3 class="sc-edsqmr dheqgt">Responses</h3>
+									<div>
+										<button class="sc-gohMHu cnBopK">
+											<svg
+												class="sc-cHqXqK hmCwJW"
+												version="1.1"
+												viewBox="0 0 24 24"
+												x="0"
+												xmlns="http://www.w3.org/2000/svg"
+												y="0"
+												aria-hidden="true"
+											>
+												<polygon
+													points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+												></polygon></svg
+											><strong class="sc-bKXUjo beMorW">200<!-- --> </strong>
+											<div
+												html="&lt;p&gt;OK&lt;/p&gt;
+"
+												class="sc-epnzzT sc-eMwmJz drsioI dWZUhK sc-drVZOg jtjIAv"
+											>
+												<p>OK</p>
+											</div>
+										</button>
+									</div>
+									<div>
+										<button class="sc-gohMHu fhwTMk">
+											<svg
+												class="sc-cHqXqK kVOWjS"
+												version="1.1"
+												viewBox="0 0 24 24"
+												x="0"
+												xmlns="http://www.w3.org/2000/svg"
+												y="0"
+												aria-hidden="true"
+											>
+												<polygon
+													points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+												></polygon></svg
+											><strong class="sc-bKXUjo beMorW">400<!-- --> </strong>
+											<div
+												html="&lt;p&gt;Bad Request&lt;/p&gt;
+"
+												class="sc-epnzzT sc-eMwmJz drsioI dWZUhK sc-drVZOg jtjIAv"
+											>
+												<p>Bad Request</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="sc-ivxoEo sc-ghWlax gOjFGl oECKJ">
+								<div class="sc-duWCru dWZoid">
+									<button class="sc-iPHsxv ebcgbH">
+										<span type="patch" class="sc-txhaY jkswBz http-verb patch"
+											>patch</span
+										><span class="sc-etPtWW iqHzp"
+											>/api/account/add-claim-to-user</span
+										><svg
+											class="sc-cHqXqK fmmJjS"
+											style="margin-right: -25px"
+											version="1.1"
+											viewBox="0 0 24 24"
+											x="0"
+											xmlns="http://www.w3.org/2000/svg"
+											y="0"
+											aria-hidden="true"
+										>
+											<polygon
+												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
+											></polygon>
+										</svg>
+									</button>
+									<div aria-hidden="true" class="sc-ePpfBx ddApzj">
+										<div class="sc-dwGkES evaCJX">
+											<div
+												html=""
+												class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
+											></div>
+											<div tabindex="0" role="button">
+												<div class="sc-hSyjfr gufODt">
+													<span></span>/api/account/add-claim-to-user
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 class="sc-keTIit zvQzH">
+										<!-- -->Request samples<!-- -->
+									</h3>
+									<div class="sc-bMTdWJ fbQvpV" data-rttabs="true">
+										<ul class="react-tabs__tab-list" role="tablist">
+											<li
+												class="react-tabs__tab react-tabs__tab--selected"
+												role="tab"
+												id="tab:R2afgq:0"
+												aria-selected="true"
+												aria-disabled="false"
+												aria-controls="panel:R2afgq:0"
+												tabindex="0"
+												data-rttab="true"
+											>
+												Payload
+											</li>
+										</ul>
+										<div
+											class="react-tabs__tab-panel react-tabs__tab-panel--selected"
+											role="tabpanel"
+											id="panel:R2afgq:0"
+											aria-labelledby="tab:R2afgq:0"
+										>
+											<div>
+												<div class="sc-Rjrgp dIDLbO">
+													<span class="sc-fufdwm eqWzJe">Content type</span>
+													<div class="sc-UblHX kKXAng">application/json</div>
+												</div>
+												<div class="sc-FFETS kqHNPM">
+													<div class="sc-eDHQDy mMhCU">
+														<div class="sc-uYFMi hhzNne">
+															<button>
+																<div class="sc-eWPXlR ezdXRP">Copy</div>
+															</button>
+														</div>
+														<div class="sc-epnzzT drsioI sc-giBObj iyEpFV">
+															<div class="redoc-json">
+																<code
+																	><button
+																		class="collapser"
+																		aria-label="collapse"
+																	></button
+																	><span class="token punctuation">{</span
+																	><span class="ellipsis"></span>
+																	<ul class="obj collapsible">
+																		<li>
+																			<div class="hoverable">
+																				<span class="property token string"
+																					>"userEmail"</span
+																				>:
+																				<span class="token string"
+																					>&quot;user@example.com&quot;</span
+																				><span class="token punctuation"
+																					>,</span
+																				>
+																			</div>
+																		</li>
+																		<li>
+																			<div class="hoverable">
+																				<span class="property token string"
+																					>"claimId"</span
+																				>:
+																				<span class="token string"
+																					>&quot;string&quot;</span
+																				><span class="token punctuation"
+																					>,</span
+																				>
+																			</div>
+																		</li>
+																		<li>
+																			<div class="hoverable">
+																				<span class="property token string"
+																					>"roleInClaim"</span
+																				>:
+																				<span class="token string"
+																					>&quot;string&quot;</span
+																				>
+																			</div>
+																		</li>
+																	</ul>
+																	<span class="token punctuation">}</span></code
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3 class="sc-keTIit zvQzH">
+										<!-- -->Response samples<!-- -->
+									</h3>
+									<div class="sc-bMTdWJ fbQvpV" data-rttabs="true">
+										<ul class="react-tabs__tab-list" role="tablist">
+											<li
+												class="tab-success react-tabs__tab--selected"
+												role="tab"
+												id="tab:R2efgq:0"
+												aria-selected="true"
+												aria-disabled="false"
+												aria-controls="panel:R2efgq:0"
+												tabindex="0"
+												data-rttab="true"
+											>
+												200
+											</li>
+											<li
+												class="tab-error"
+												role="tab"
+												id="tab:R2efgq:1"
+												aria-selected="false"
+												aria-disabled="false"
+												aria-controls="panel:R2efgq:1"
+												data-rttab="true"
+											>
+												400
+											</li>
+										</ul>
+										<div
+											class="react-tabs__tab-panel react-tabs__tab-panel--selected"
+											role="tabpanel"
+											id="panel:R2efgq:0"
+											aria-labelledby="tab:R2efgq:0"
+										>
+											<div>
+												<div class="sc-Rjrgp dIDLbO">
+													<span class="sc-fufdwm eqWzJe">Content type</span>
+													<div class="sc-UblHX kKXAng">application/json</div>
+												</div>
+												<div class="sc-FFETS kqHNPM">
+													<div class="sc-eDHQDy mMhCU">
+														<div class="sc-uYFMi hhzNne">
+															<button>
+																<div class="sc-eWPXlR ezdXRP">Copy</div>
+															</button>
+														</div>
+														<div class="sc-epnzzT drsioI sc-giBObj iyEpFV">
+															<div class="redoc-json">
+																<code
+																	><button
+																		class="collapser"
+																		aria-label="collapse"
+																	></button
+																	><span class="token punctuation">{</span
+																	><span class="ellipsis"></span>
+																	<ul class="obj collapsible">
+																		<li>
+																			<div class="hoverable">
+																				<span class="property token string"
+																					>"response"</span
+																				>:
+																				<span class="token string"
+																					>&quot;string&quot;</span
+																				>
+																			</div>
+																		</li>
+																	</ul>
+																	<span class="token punctuation">}</span></code
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="react-tabs__tab-panel"
+											role="tabpanel"
+											id="panel:R2efgq:1"
+											aria-labelledby="tab:R2efgq:1"
 										></div>
 									</div>
 								</div>
@@ -12064,8 +12712,8 @@
 						</div>
 					</div>
 					<div
-						id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/get"
-						data-section-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/get"
+						id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/get"
+						data-section-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/get"
 						class="sc-dntaoT aYCdu"
 					>
 						<div class="sc-kLhKbu dECWTf">
@@ -12073,10 +12721,10 @@
 								<h2 class="sc-khLCKb wHiQv">
 									<a
 										class="sc-jwIPbr hbTOAm"
-										href="#tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/get"
-										aria-label="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/get"
+										href="#tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/get"
+										aria-label="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/get"
 									></a
-									>/api/claim-details/{id}<!-- -->
+									>/api/claim-details/{claimId}<!-- -->
 								</h2>
 								<div class="sc-hGNhLO dyzdIR">
 									<div class="sc-jWJSSj jXOga-d">
@@ -12115,11 +12763,11 @@
 											<tr class="last">
 												<td
 													kind="field"
-													title="id"
+													title="claimId"
 													class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
 												>
 													<span class="sc-gQaihK kPDxnK"></span
-													><span class="property-name">id</span>
+													><span class="property-name">claimId</span>
 													<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
 														required
 													</div>
@@ -12179,7 +12827,8 @@
 									<button class="sc-iPHsxv ebcgbH">
 										<span type="get" class="sc-txhaY IVbnb http-verb get"
 											>get</span
-										><span class="sc-etPtWW iqHzp">/api/claim-details/{id}</span
+										><span class="sc-etPtWW iqHzp"
+											>/api/claim-details/{claimId}</span
 										><svg
 											class="sc-cHqXqK fmmJjS"
 											style="margin-right: -25px"
@@ -12203,7 +12852,7 @@
 											></div>
 											<div tabindex="0" role="button">
 												<div class="sc-hSyjfr gufODt">
-													<span></span>/api/claim-details/{id}
+													<span></span>/api/claim-details/{claimId}
 												</div>
 											</div>
 										</div>
@@ -13375,8 +14024,8 @@
 						</div>
 					</div>
 					<div
-						id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/put"
-						data-section-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/put"
+						id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/put"
+						data-section-id="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/put"
 						class="sc-dntaoT aYCdu"
 					>
 						<div class="sc-kLhKbu dECWTf">
@@ -13384,10 +14033,10 @@
 								<h2 class="sc-khLCKb wHiQv">
 									<a
 										class="sc-jwIPbr hbTOAm"
-										href="#tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/put"
-										aria-label="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/put"
+										href="#tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/put"
+										aria-label="tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/put"
 									></a
-									>/api/claim-details/{id}<!-- -->
+									>/api/claim-details/{claimId}<!-- -->
 								</h2>
 								<div class="sc-hGNhLO dyzdIR">
 									<div class="sc-jWJSSj jXOga-d">
@@ -13426,11 +14075,11 @@
 											<tr class="last">
 												<td
 													kind="field"
-													title="id"
+													title="claimId"
 													class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
 												>
 													<span class="sc-gQaihK kPDxnK"></span
-													><span class="property-name">id</span>
+													><span class="property-name">claimId</span>
 													<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
 														required
 													</div>
@@ -14229,7 +14878,8 @@
 									<button class="sc-iPHsxv ebcgbH">
 										<span type="put" class="sc-txhaY fzqXJO http-verb put"
 											>put</span
-										><span class="sc-etPtWW iqHzp">/api/claim-details/{id}</span
+										><span class="sc-etPtWW iqHzp"
+											>/api/claim-details/{claimId}</span
 										><svg
 											class="sc-cHqXqK fmmJjS"
 											style="margin-right: -25px"
@@ -14253,7 +14903,7 @@
 											></div>
 											<div tabindex="0" role="button">
 												<div class="sc-hSyjfr gufODt">
-													<span></span>/api/claim-details/{id}
+													<span></span>/api/claim-details/{claimId}
 												</div>
 											</div>
 										</div>
@@ -36664,757 +37314,6 @@
 							</div>
 						</div>
 					</div>
-					<div
-						id="tag/UserEndpoints"
-						data-section-id="tag/UserEndpoints"
-						class="sc-dntaoT bvhSud"
-					>
-						<div class="sc-kLhKbu dECWTf">
-							<div class="sc-fAUdSK dFrZq">
-								<h2 class="sc-khLCKb wHiQv">
-									<a
-										class="sc-jwIPbr hbTOAm"
-										href="#tag/UserEndpoints"
-										aria-label="tag/UserEndpoints"
-									></a
-									>UserEndpoints
-								</h2>
-							</div>
-						</div>
-					</div>
-					<div
-						id="tag/UserEndpoints/paths/~1api~1users/get"
-						data-section-id="tag/UserEndpoints/paths/~1api~1users/get"
-						class="sc-dntaoT aYCdu"
-					>
-						<div class="sc-kLhKbu dECWTf">
-							<div class="sc-fAUdSK dFrZq">
-								<h2 class="sc-khLCKb wHiQv">
-									<a
-										class="sc-jwIPbr hbTOAm"
-										href="#tag/UserEndpoints/paths/~1api~1users/get"
-										aria-label="tag/UserEndpoints/paths/~1api~1users/get"
-									></a
-									>/api/users<!-- -->
-								</h2>
-								<div class="sc-hGNhLO dyzdIR">
-									<div class="sc-jWJSSj jXOga-d">
-										<h5 class="sc-dpBQxM sc-khdDuB eJAAZj ffSXYc">
-											Authorizations:
-										</h5>
-										<svg
-											class="sc-cHqXqK bEpxpV"
-											version="1.1"
-											viewBox="0 0 24 24"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											y="0"
-											aria-hidden="true"
-										>
-											<polygon
-												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
-											></polygon>
-										</svg>
-									</div>
-									<div class="sc-iCjFWQ gQOXJB">
-										<span class="sc-irPVuy eqXCjK"
-											><span class="sc-bqvdXA dIXVzO"
-												><i>cookieJwtAuth</i></span
-											></span
-										>
-									</div>
-								</div>
-								<div>
-									<h3 class="sc-edsqmr dheqgt">Responses</h3>
-									<div>
-										<button class="sc-gohMHu kQgYHQ" disabled="">
-											<strong class="sc-bKXUjo beMorW">200<!-- --> </strong>
-											<div
-												html="&lt;p&gt;OK&lt;/p&gt;
-"
-												class="sc-epnzzT sc-eMwmJz drsioI dWZUhK sc-drVZOg jtjIAv"
-											>
-												<p>OK</p>
-											</div>
-										</button>
-									</div>
-								</div>
-							</div>
-							<div class="sc-ivxoEo sc-ghWlax gOjFGl oECKJ">
-								<div class="sc-duWCru dWZoid">
-									<button class="sc-iPHsxv ebcgbH">
-										<span type="get" class="sc-txhaY IVbnb http-verb get"
-											>get</span
-										><span class="sc-etPtWW iqHzp">/api/users</span
-										><svg
-											class="sc-cHqXqK fmmJjS"
-											style="margin-right: -25px"
-											version="1.1"
-											viewBox="0 0 24 24"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											y="0"
-											aria-hidden="true"
-										>
-											<polygon
-												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
-											></polygon>
-										</svg>
-									</button>
-									<div aria-hidden="true" class="sc-ePpfBx ddApzj">
-										<div class="sc-dwGkES evaCJX">
-											<div
-												html=""
-												class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-											></div>
-											<div tabindex="0" role="button">
-												<div class="sc-hSyjfr gufODt">
-													<span></span>/api/users
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div
-						id="tag/UserEndpoints/paths/~1api~1users/post"
-						data-section-id="tag/UserEndpoints/paths/~1api~1users/post"
-						class="sc-dntaoT aYCdu"
-					>
-						<div class="sc-kLhKbu dECWTf">
-							<div class="sc-fAUdSK dFrZq">
-								<h2 class="sc-khLCKb wHiQv">
-									<a
-										class="sc-jwIPbr hbTOAm"
-										href="#tag/UserEndpoints/paths/~1api~1users/post"
-										aria-label="tag/UserEndpoints/paths/~1api~1users/post"
-									></a
-									>/api/users<!-- -->
-								</h2>
-								<div class="sc-hGNhLO dyzdIR">
-									<div class="sc-jWJSSj jXOga-d">
-										<h5 class="sc-dpBQxM sc-khdDuB eJAAZj ffSXYc">
-											Authorizations:
-										</h5>
-										<svg
-											class="sc-cHqXqK bEpxpV"
-											version="1.1"
-											viewBox="0 0 24 24"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											y="0"
-											aria-hidden="true"
-										>
-											<polygon
-												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
-											></polygon>
-										</svg>
-									</div>
-									<div class="sc-iCjFWQ gQOXJB">
-										<span class="sc-irPVuy eqXCjK"
-											><span class="sc-bqvdXA dIXVzO"
-												><i>cookieJwtAuth</i></span
-											></span
-										>
-									</div>
-								</div>
-								<h5 class="sc-dpBQxM eJAAZj">
-									Request Body schema:
-									<span class="sc-dhCplO khtVmz">application/json</span>
-									<div class="sc-CNKsk sc-hGZxvd sc-kLJHhQ hPAOR feFoaC fRACBr">
-										required
-									</div>
-								</h5>
-								<div html="" class="sc-epnzzT sc-eMwmJz drsioI dWZUhK"></div>
-								<table class="sc-dprtRQ eNFxPe">
-									<tbody>
-										<tr class="">
-											<td
-												kind="field"
-												title="id"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">id</span>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="username"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">username</span>
-												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-													required
-												</div>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="fullName"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">fullName</span>
-												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-													required
-												</div>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="email"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">email</span>
-												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-													required
-												</div>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="phone"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">phone</span>
-												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-													required
-												</div>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="role"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">role</span>
-												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-													required
-												</div>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="password"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">password</span>
-												<div class="sc-CNKsk sc-hGZxvd hPAOR feFoaC">
-													required
-												</div>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string or null</span
-														>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="claims"
-												class="sc-ovuCP sc-eauhAA sc-hsfCcR iyKqKI iQpMVv buGHPE"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><button aria-label="expand claims">
-													<span class="property-name">claims</span
-													><svg
-														class="sc-cHqXqK ccTkAM"
-														version="1.1"
-														viewBox="0 0 24 24"
-														x="0"
-														xmlns="http://www.w3.org/2000/svg"
-														y="0"
-														aria-hidden="true"
-													>
-														<polygon
-															points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
-														></polygon>
-													</svg>
-												</button>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"
-															>Array of </span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>objects or null</span
-														><span class="sc-CNKsk sc-gcfzXs hPAOR dnQByT">
-															(<!-- -->UserClaim<!-- -->)
-														</span>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="">
-											<td
-												kind="field"
-												title="createdAt"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">createdAt</span>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string</span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi">
-															<!-- -->&lt;<!-- -->date-time<!-- -->&gt;<!-- -->
-														</span>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr class="last">
-											<td
-												kind="field"
-												title="updatedAt"
-												class="sc-ovuCP sc-eauhAA iyKqKI iQpMVv"
-											>
-												<span class="sc-gQaihK kPDxnK"></span
-												><span class="property-name">updatedAt</span>
-											</td>
-											<td class="sc-fFoeYl cHXoZJ">
-												<div>
-													<div>
-														<span class="sc-CNKsk sc-cqgMZH hPAOR dWKYKL"></span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi"
-															>string</span
-														><span class="sc-CNKsk sc-gQkENW hPAOR bIEFFi">
-															<!-- -->&lt;<!-- -->date-time<!-- -->&gt;<!-- -->
-														</span>
-													</div>
-													<div>
-														<div
-															html=""
-															class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-														></div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-								<div>
-									<h3 class="sc-edsqmr dheqgt">Responses</h3>
-									<div>
-										<button class="sc-gohMHu kQgYHQ" disabled="">
-											<strong class="sc-bKXUjo beMorW">200<!-- --> </strong>
-											<div
-												html="&lt;p&gt;OK&lt;/p&gt;
-"
-												class="sc-epnzzT sc-eMwmJz drsioI dWZUhK sc-drVZOg jtjIAv"
-											>
-												<p>OK</p>
-											</div>
-										</button>
-									</div>
-								</div>
-							</div>
-							<div class="sc-ivxoEo sc-ghWlax gOjFGl oECKJ">
-								<div class="sc-duWCru dWZoid">
-									<button class="sc-iPHsxv ebcgbH">
-										<span type="post" class="sc-txhaY cpnVKx http-verb post"
-											>post</span
-										><span class="sc-etPtWW iqHzp">/api/users</span
-										><svg
-											class="sc-cHqXqK fmmJjS"
-											style="margin-right: -25px"
-											version="1.1"
-											viewBox="0 0 24 24"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											y="0"
-											aria-hidden="true"
-										>
-											<polygon
-												points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "
-											></polygon>
-										</svg>
-									</button>
-									<div aria-hidden="true" class="sc-ePpfBx ddApzj">
-										<div class="sc-dwGkES evaCJX">
-											<div
-												html=""
-												class="sc-epnzzT sc-eMwmJz drsioI ewnBNs"
-											></div>
-											<div tabindex="0" role="button">
-												<div class="sc-hSyjfr gufODt">
-													<span></span>/api/users
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<h3 class="sc-keTIit zvQzH">
-										<!-- -->Request samples<!-- -->
-									</h3>
-									<div class="sc-bMTdWJ fbQvpV" data-rttabs="true">
-										<ul class="react-tabs__tab-list" role="tablist">
-											<li
-												class="react-tabs__tab react-tabs__tab--selected"
-												role="tab"
-												id="tab:R156mq:0"
-												aria-selected="true"
-												aria-disabled="false"
-												aria-controls="panel:R156mq:0"
-												tabindex="0"
-												data-rttab="true"
-											>
-												Payload
-											</li>
-										</ul>
-										<div
-											class="react-tabs__tab-panel react-tabs__tab-panel--selected"
-											role="tabpanel"
-											id="panel:R156mq:0"
-											aria-labelledby="tab:R156mq:0"
-										>
-											<div>
-												<div class="sc-Rjrgp dIDLbO">
-													<span class="sc-fufdwm eqWzJe">Content type</span>
-													<div class="sc-UblHX kKXAng">application/json</div>
-												</div>
-												<div class="sc-FFETS kqHNPM">
-													<div class="sc-eDHQDy mMhCU">
-														<div class="sc-uYFMi hhzNne">
-															<button>
-																<div class="sc-eWPXlR ezdXRP">Copy</div></button
-															><button>Expand all</button
-															><button>Collapse all</button>
-														</div>
-														<div class="sc-epnzzT drsioI sc-giBObj iyEpFV">
-															<div class="redoc-json">
-																<code
-																	><button
-																		class="collapser"
-																		aria-label="collapse"
-																	></button
-																	><span class="token punctuation">{</span
-																	><span class="ellipsis"></span>
-																	<ul class="obj collapsible">
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"id"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"username"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"fullName"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"email"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"phone"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"role"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"password"</span
-																				>:
-																				<span class="token string"
-																					>&quot;string&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"claims"</span
-																				>:
-																				<button
-																					class="collapser"
-																					aria-label="collapse"
-																				></button
-																				><span class="token punctuation">[</span
-																				><span class="ellipsis"></span>
-																				<ul class="array collapsible">
-																					<li>
-																						<div class="hoverable collapsed">
-																							<button
-																								class="collapser"
-																								aria-label="expand"
-																							></button
-																							><span class="token punctuation"
-																								>{</span
-																							><span class="ellipsis"></span>
-																							<ul class="obj collapsible">
-																								<li>
-																									<div
-																										class="hoverable collapsed"
-																									>
-																										<span
-																											class="property token string"
-																											>"claimId"</span
-																										>:
-																										<span class="token string"
-																											>&quot;string&quot;</span
-																										><span
-																											class="token punctuation"
-																											>,</span
-																										>
-																									</div>
-																								</li>
-																								<li>
-																									<div
-																										class="hoverable collapsed"
-																									>
-																										<span
-																											class="property token string"
-																											>"roleInClaim"</span
-																										>:
-																										<span class="token string"
-																											>&quot;string&quot;</span
-																										>
-																									</div>
-																								</li>
-																							</ul>
-																							<span class="token punctuation"
-																								>}</span
-																							>
-																						</div>
-																					</li>
-																				</ul>
-																				<span class="token punctuation">]</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"createdAt"</span
-																				>:
-																				<span class="token string"
-																					>&quot;2019-08-24T14:15:22Z&quot;</span
-																				><span class="token punctuation"
-																					>,</span
-																				>
-																			</div>
-																		</li>
-																		<li>
-																			<div class="hoverable">
-																				<span class="property token string"
-																					>"updatedAt"</span
-																				>:
-																				<span class="token string"
-																					>&quot;2019-08-24T14:15:22Z&quot;</span
-																				>
-																			</div>
-																		</li>
-																	</ul>
-																	<span class="token punctuation">}</span></code
-																>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 				<div class="sc-eEVuZf ifLiBE"></div>
 			</div>
@@ -37525,17 +37424,9 @@
 									responses: { 200: { description: "OK" } },
 								},
 							},
-							"/api/account/check-token": {
+							"/api/account/get-info": {
 								get: {
 									tags: ["AccountEndpoints"],
-									parameters: [
-										{
-											name: "token",
-											in: "query",
-											required: true,
-											schema: { type: "string" },
-										},
-									],
 									responses: {
 										200: {
 											description: "OK",
@@ -37556,6 +37447,81 @@
 											},
 										},
 									},
+									security: [{ cookieJwtAuth: [] }],
+								},
+							},
+							"/api/account/check-valid-email": {
+								get: {
+									tags: ["AccountEndpoints"],
+									parameters: [
+										{
+											name: "email",
+											in: "query",
+											required: true,
+											schema: { type: "string" },
+										},
+									],
+									responses: {
+										200: {
+											description: "OK",
+											content: {
+												"application/json": {
+													schema: {
+														$ref: "#/components/schemas/SuccessResponseBase",
+													},
+												},
+											},
+										},
+										400: {
+											description: "Bad Request",
+											content: {
+												"application/json": {
+													schema: {
+														$ref: "#/components/schemas/ErrorResponseBase",
+													},
+												},
+											},
+										},
+									},
+									security: [{ cookieJwtAuth: [] }],
+								},
+							},
+							"/api/account/add-claim-to-user": {
+								patch: {
+									tags: ["AccountEndpoints"],
+									requestBody: {
+										content: {
+											"application/json": {
+												schema: {
+													$ref: "#/components/schemas/AddUserToClaimRequest",
+												},
+											},
+										},
+										required: true,
+									},
+									responses: {
+										200: {
+											description: "OK",
+											content: {
+												"application/json": {
+													schema: {
+														$ref: "#/components/schemas/SuccessResponseBase",
+													},
+												},
+											},
+										},
+										400: {
+											description: "Bad Request",
+											content: {
+												"application/json": {
+													schema: {
+														$ref: "#/components/schemas/ErrorResponseBase",
+													},
+												},
+											},
+										},
+									},
+									security: [{ cookieJwtAuth: [] }],
 								},
 							},
 							"/api/generate-ale-estimate/{claimId}": {
@@ -37759,12 +37725,12 @@
 									security: [{ cookieJwtAuth: [] }],
 								},
 							},
-							"/api/claim-details/{id}": {
+							"/api/claim-details/{claimId}": {
 								get: {
 									tags: ["ClaimDetailEndpoints"],
 									parameters: [
 										{
-											name: "id",
+											name: "claimId",
 											in: "path",
 											required: true,
 											schema: { type: "string" },
@@ -37788,7 +37754,7 @@
 									tags: ["ClaimDetailEndpoints"],
 									parameters: [
 										{
-											name: "id",
+											name: "claimId",
 											in: "path",
 											required: true,
 											schema: { type: "string" },
@@ -38731,29 +38697,23 @@
 									responses: { 200: { description: "OK" } },
 								},
 							},
-							"/api/users": {
-								get: {
-									tags: ["UserEndpoints"],
-									responses: { 200: { description: "OK" } },
-									security: [{ cookieJwtAuth: [] }],
-								},
-								post: {
-									tags: ["UserEndpoints"],
-									requestBody: {
-										content: {
-											"application/json": {
-												schema: { $ref: "#/components/schemas/User" },
-											},
-										},
-										required: true,
-									},
-									responses: { 200: { description: "OK" } },
-									security: [{ cookieJwtAuth: [] }],
-								},
-							},
 						},
 						components: {
 							schemas: {
+								AddUserToClaimRequest: {
+									required: ["claimId", "roleInClaim", "userEmail"],
+									type: "object",
+									properties: {
+										userEmail: {
+											minLength: 1,
+											type: "string",
+											format: "email",
+										},
+										claimId: { minLength: 1, type: "string" },
+										roleInClaim: { minLength: 1, type: "string" },
+									},
+									additionalProperties: false,
+								},
 								AdditionalLivingExpenses: {
 									type: "object",
 									properties: { details: { type: "string", nullable: true } },
@@ -39602,7 +39562,9 @@
 						"tag/AccountEndpoints/paths/~1api~1account~1register/post",
 						"tag/AccountEndpoints/paths/~1api~1account~1forgot-password/post",
 						"tag/AccountEndpoints/paths/~1api~1account~1reset-password/post",
-						"tag/AccountEndpoints/paths/~1api~1account~1check-token/get",
+						"tag/AccountEndpoints/paths/~1api~1account~1get-info/get",
+						"tag/AccountEndpoints/paths/~1api~1account~1check-valid-email/get",
+						"tag/AccountEndpoints/paths/~1api~1account~1add-claim-to-user/patch",
 						"tag/AleEndpoints",
 						"tag/AleEndpoints/paths/~1api~1generate-ale-estimate~1{claimId}/post",
 						"tag/ClaimCraft.API",
@@ -39612,8 +39574,8 @@
 						"tag/ClaimDetailEndpoints",
 						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details/get",
 						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details/post",
-						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/get",
-						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{id}/put",
+						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/get",
+						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1{claimId}/put",
 						"tag/ClaimDetailEndpoints/paths/~1api~1claim-details~1claim-number~1{claimNum}/get",
 						"tag/ClaimDocumentEndpoints",
 						"tag/ClaimDocumentEndpoints/paths/~1api~1claim-documents/get",
@@ -39647,139 +39609,142 @@
 						"tag/TimeTrackingRecordEndpoints/paths/~1api~1time-tracking~1{userId}~1{claimId}~1start/post",
 						"tag/TimeTrackingRecordEndpoints/paths/~1api~1time-tracking~1{userId}~1{claimId}~1end/post",
 						"tag/TimeTrackingRecordEndpoints/paths/~1api~1time-tracking/delete",
-						"tag/UserEndpoints",
-						"tag/UserEndpoints/paths/~1api~1users/get",
-						"tag/UserEndpoints/paths/~1api~1users/post",
 					],
 					index: {
 						version: "2.3.9",
 						fields: ["title", "description"],
 						fieldVectors: [
-							["title/0", [0, 3.638]],
+							["title/0", [0, 3.62]],
 							["description/0", []],
-							["title/1", [1, 3.119]],
-							["description/1", [1, 2.712]],
-							["title/2", [2, 3.119]],
-							["description/2", [2, 2.712]],
-							["title/3", [3, 3.119]],
-							["description/3", [3, 2.712]],
-							["title/4", [4, 3.119]],
-							["description/4", [4, 2.712]],
-							["title/5", [5, 3.119]],
-							["description/5", [5, 2.712]],
-							["title/6", [6, 3.638]],
-							["description/6", []],
-							["title/7", [7, 3.119]],
-							["description/7", [7, 2.712]],
-							["title/8", [8, 3.638]],
+							["title/1", [1, 3.101]],
+							["description/1", [1, 2.72]],
+							["title/2", [2, 3.101]],
+							["description/2", [2, 2.72]],
+							["title/3", [3, 3.101]],
+							["description/3", [3, 2.72]],
+							["title/4", [4, 3.101]],
+							["description/4", [4, 2.72]],
+							["title/5", [5, 3.101]],
+							["description/5", [5, 2.72]],
+							["title/6", [6, 3.101]],
+							["description/6", [6, 2.72]],
+							["title/7", [7, 3.101]],
+							["description/7", [7, 2.72]],
+							["title/8", [8, 3.62]],
 							["description/8", []],
-							["title/9", [9, 3.638]],
-							["description/9", [10, 3.163]],
-							["title/10", [11, 3.638]],
-							["description/10", [12, 3.163]],
-							["title/11", [13, 3.638]],
-							["description/11", [14, 3.163]],
-							["title/12", [15, 3.638]],
-							["description/12", []],
-							["title/13", [16, 2.522]],
-							["description/13", [16, 2.193]],
-							["title/14", [16, 2.522]],
-							["description/14", [16, 2.193]],
-							["title/15", [17, 2.522]],
-							["description/15", [17, 2.193]],
-							["title/16", [17, 2.522]],
-							["description/16", [17, 2.193]],
-							["title/17", [18, 3.119]],
-							["description/17", [18, 2.712]],
-							["title/18", [19, 3.638]],
-							["description/18", []],
-							["title/19", [20, 2.522]],
-							["description/19", [20, 2.193]],
-							["title/20", [20, 2.522]],
-							["description/20", [20, 2.193]],
-							["title/21", [21, 3.119]],
-							["description/21", [21, 2.712]],
-							["title/22", [22, 3.119]],
-							["description/22", [22, 2.712]],
-							["title/23", [23, 3.119]],
-							["description/23", [23, 2.712]],
-							["title/24", [24, 3.638]],
-							["description/24", []],
-							["title/25", [25, 2.522]],
-							["description/25", [25, 2.193]],
-							["title/26", [25, 2.522]],
-							["description/26", [25, 2.193]],
-							["title/27", [26, 2.522]],
-							["description/27", [26, 2.193]],
-							["title/28", [26, 2.522]],
-							["description/28", [26, 2.193]],
-							["title/29", [27, 3.638]],
-							["description/29", []],
-							["title/30", [28, 2.522]],
-							["description/30", [28, 2.193]],
-							["title/31", [28, 2.522]],
-							["description/31", [28, 2.193]],
-							["title/32", [29, 2.522]],
-							["description/32", [29, 2.193]],
-							["title/33", [29, 2.522]],
-							["description/33", [29, 2.193]],
-							["title/34", [30, 3.638]],
-							["description/34", []],
-							["title/35", [31, 3.119]],
-							["description/35", [31, 2.712]],
-							["title/36", [32, 2.598, 33, 2.598]],
+							["title/9", [9, 3.101]],
+							["description/9", [9, 2.72]],
+							["title/10", [10, 3.62]],
+							["description/10", []],
+							["title/11", [11, 3.62]],
+							["description/11", [12, 3.175]],
+							["title/12", [13, 3.62]],
+							["description/12", [14, 3.175]],
+							["title/13", [15, 3.62]],
+							["description/13", [16, 3.175]],
+							["title/14", [17, 3.62]],
+							["description/14", []],
+							["title/15", [18, 2.504]],
+							["description/15", [18, 2.197]],
+							["title/16", [18, 2.504]],
+							["description/16", [18, 2.197]],
+							["title/17", [19, 2.504]],
+							["description/17", [19, 2.197]],
+							["title/18", [19, 2.504]],
+							["description/18", [19, 2.197]],
+							["title/19", [20, 3.101]],
+							["description/19", [20, 2.72]],
+							["title/20", [21, 3.62]],
+							["description/20", []],
+							["title/21", [22, 2.504]],
+							["description/21", [22, 2.197]],
+							["title/22", [22, 2.504]],
+							["description/22", [22, 2.197]],
+							["title/23", [23, 3.101]],
+							["description/23", [23, 2.72]],
+							["title/24", [24, 3.101]],
+							["description/24", [24, 2.72]],
+							["title/25", [25, 3.101]],
+							["description/25", [25, 2.72]],
+							["title/26", [26, 3.62]],
+							["description/26", []],
+							["title/27", [27, 2.504]],
+							["description/27", [27, 2.197]],
+							["title/28", [27, 2.504]],
+							["description/28", [27, 2.197]],
+							["title/29", [28, 2.504]],
+							["description/29", [28, 2.197]],
+							["title/30", [28, 2.504]],
+							["description/30", [28, 2.197]],
+							["title/31", [29, 3.62]],
+							["description/31", []],
+							["title/32", [30, 2.504]],
+							["description/32", [30, 2.197]],
+							["title/33", [30, 2.504]],
+							["description/33", [30, 2.197]],
+							["title/34", [31, 2.504]],
+							["description/34", [31, 2.197]],
+							["title/35", [31, 2.504]],
+							["description/35", [31, 2.197]],
+							["title/36", [32, 3.62]],
 							["description/36", []],
-							["title/37", [34, 3.638]],
-							["description/37", [35, 3.163]],
-							["title/38", [36, 2.598, 37, 2.598]],
+							["title/37", [33, 3.101]],
+							["description/37", [33, 2.72]],
+							["title/38", [34, 2.585, 35, 2.585]],
 							["description/38", []],
-							["title/39", [38, 3.638]],
-							["description/39", [39, 3.163]],
-							["title/40", [40, 3.638]],
+							["title/39", [36, 3.62]],
+							["description/39", [37, 3.175]],
+							["title/40", [38, 2.585, 39, 2.585]],
 							["description/40", []],
-							["title/41", [41, 3.119]],
-							["description/41", [41, 2.712]],
-							["title/42", [42, 3.638]],
+							["title/41", [40, 3.62]],
+							["description/41", [41, 3.175]],
+							["title/42", [42, 3.62]],
 							["description/42", []],
-							["title/43", [43, 3.119]],
-							["description/43", [43, 2.712]],
-							["title/44", [44, 3.119]],
-							["description/44", [44, 2.712]],
-							["title/45", [45, 2.522]],
-							["description/45", [45, 2.193]],
-							["title/46", [45, 2.522]],
-							["description/46", [45, 2.193]],
-							["title/47", [46, 3.119]],
-							["description/47", [46, 2.712]],
-							["title/48", [47, 3.119]],
-							["description/48", [47, 2.712]],
-							["title/49", [48, 3.119]],
-							["description/49", [48, 2.712]],
-							["title/50", [49, 3.638]],
-							["description/50", []],
-							["title/51", [50, 2.522]],
-							["description/51", [50, 2.193]],
-							["title/52", [50, 2.522]],
-							["description/52", [50, 2.193]],
+							["title/43", [43, 3.101]],
+							["description/43", [43, 2.72]],
+							["title/44", [44, 3.62]],
+							["description/44", []],
+							["title/45", [45, 3.101]],
+							["description/45", [45, 2.72]],
+							["title/46", [46, 3.101]],
+							["description/46", [46, 2.72]],
+							["title/47", [47, 2.504]],
+							["description/47", [47, 2.197]],
+							["title/48", [47, 2.504]],
+							["description/48", [47, 2.197]],
+							["title/49", [48, 3.101]],
+							["description/49", [48, 2.72]],
+							["title/50", [49, 3.101]],
+							["description/50", [49, 2.72]],
+							["title/51", [50, 3.101]],
+							["description/51", [50, 2.72]],
 						],
 						invertedIndex: [
 							[
 								"accountendpoint",
 								{ _index: 0, title: { 0: {} }, description: {} },
 							],
-							["aleendpoint", { _index: 6, title: { 6: {} }, description: {} }],
-							["analysi", { _index: 33, title: { 36: {} }, description: {} }],
+							["aleendpoint", { _index: 8, title: { 8: {} }, description: {} }],
+							["analysi", { _index: 35, title: { 38: {} }, description: {} }],
 							[
 								"analyzecoverag",
-								{ _index: 34, title: { 37: {} }, description: {} },
+								{ _index: 36, title: { 39: {} }, description: {} },
 							],
 							[
-								"api/account/check-token",
-								{ _index: 5, title: { 5: {} }, description: { 5: {} } },
+								"api/account/add-claim-to-us",
+								{ _index: 7, title: { 7: {} }, description: { 7: {} } },
+							],
+							[
+								"api/account/check-valid-email",
+								{ _index: 6, title: { 6: {} }, description: { 6: {} } },
 							],
 							[
 								"api/account/forgot-password",
 								{ _index: 3, title: { 3: {} }, description: { 3: {} } },
+							],
+							[
+								"api/account/get-info",
+								{ _index: 5, title: { 5: {} }, description: { 5: {} } },
 							],
 							[
 								"api/account/login",
@@ -39796,197 +39761,185 @@
 							[
 								"api/claim-detail",
 								{
-									_index: 16,
-									title: { 13: {}, 14: {} },
-									description: { 13: {}, 14: {} },
-								},
-							],
-							[
-								"api/claim-details/claim-number/{claimnum",
-								{ _index: 18, title: { 17: {} }, description: { 17: {} } },
-							],
-							[
-								"api/claim-details/{id",
-								{
-									_index: 17,
+									_index: 18,
 									title: { 15: {}, 16: {} },
 									description: { 15: {}, 16: {} },
 								},
 							],
 							[
+								"api/claim-details/claim-number/{claimnum",
+								{ _index: 20, title: { 19: {} }, description: { 19: {} } },
+							],
+							[
+								"api/claim-details/{claimid",
+								{
+									_index: 19,
+									title: { 17: {}, 18: {} },
+									description: { 17: {}, 18: {} },
+								},
+							],
+							[
 								"api/claim-docu",
 								{
-									_index: 20,
-									title: { 19: {}, 20: {} },
-									description: { 19: {}, 20: {} },
+									_index: 22,
+									title: { 21: {}, 22: {} },
+									description: { 21: {}, 22: {} },
 								},
 							],
 							[
 								"api/claim-documents/{claimid",
-								{ _index: 21, title: { 21: {} }, description: { 21: {} } },
-							],
-							[
-								"api/claim-documents/{claimid}/delete-object",
 								{ _index: 23, title: { 23: {} }, description: { 23: {} } },
 							],
 							[
+								"api/claim-documents/{claimid}/delete-object",
+								{ _index: 25, title: { 25: {} }, description: { 25: {} } },
+							],
+							[
 								"api/claim-documents/{claimid}/insert-object",
-								{ _index: 22, title: { 22: {} }, description: { 22: {} } },
+								{ _index: 24, title: { 24: {} }, description: { 24: {} } },
 							],
 							[
 								"api/claim-report",
 								{
-									_index: 25,
-									title: { 25: {}, 26: {} },
-									description: { 25: {}, 26: {} },
-								},
-							],
-							[
-								"api/claim-reports/{claimid",
-								{
-									_index: 26,
+									_index: 27,
 									title: { 27: {}, 28: {} },
 									description: { 27: {}, 28: {} },
 								},
 							],
 							[
-								"api/claim-reserve-summari",
+								"api/claim-reports/{claimid",
 								{
 									_index: 28,
-									title: { 30: {}, 31: {} },
-									description: { 30: {}, 31: {} },
+									title: { 29: {}, 30: {} },
+									description: { 29: {}, 30: {} },
 								},
 							],
 							[
-								"api/claim-reserve-summary/{claimid",
+								"api/claim-reserve-summari",
 								{
-									_index: 29,
+									_index: 30,
 									title: { 32: {}, 33: {} },
 									description: { 32: {}, 33: {} },
 								},
 							],
 							[
+								"api/claim-reserve-summary/{claimid",
+								{
+									_index: 31,
+									title: { 34: {}, 35: {} },
+									description: { 34: {}, 35: {} },
+								},
+							],
+							[
 								"api/coverage-analysis/analyze/{claimid",
-								{ _index: 35, title: {}, description: { 37: {} } },
+								{ _index: 37, title: {}, description: { 39: {} } },
 							],
 							[
 								"api/generate-ale-estimate/{claimid",
-								{ _index: 7, title: { 7: {} }, description: { 7: {} } },
+								{ _index: 9, title: { 9: {} }, description: { 9: {} } },
 							],
 							[
 								"api/generate-contents-damage-assessment/{claimid",
-								{ _index: 31, title: { 35: {} }, description: { 35: {} } },
+								{ _index: 33, title: { 37: {} }, description: { 37: {} } },
 							],
 							[
 								"api/generate-property-damage-assessment/{claimid",
-								{ _index: 41, title: { 41: {} }, description: { 41: {} } },
-							],
-							[
-								"api/initial-summary/generate/{claimid",
-								{ _index: 39, title: {}, description: { 39: {} } },
-							],
-							[
-								"api/report-compiler/compile/{claimid",
-								{ _index: 10, title: {}, description: { 9: {} } },
-							],
-							[
-								"api/report-compiler/final/{claimid",
-								{ _index: 12, title: {}, description: { 10: {} } },
-							],
-							[
-								"api/report-compiler/select-attachments/{claimid",
-								{ _index: 14, title: {}, description: { 11: {} } },
-							],
-							[
-								"api/time-track",
-								{ _index: 48, title: { 49: {} }, description: { 49: {} } },
-							],
-							[
-								"api/time-tracking/create-new-record",
 								{ _index: 43, title: { 43: {} }, description: { 43: {} } },
 							],
 							[
+								"api/initial-summary/generate/{claimid",
+								{ _index: 41, title: {}, description: { 41: {} } },
+							],
+							[
+								"api/report-compiler/compile/{claimid",
+								{ _index: 12, title: {}, description: { 11: {} } },
+							],
+							[
+								"api/report-compiler/final/{claimid",
+								{ _index: 14, title: {}, description: { 12: {} } },
+							],
+							[
+								"api/report-compiler/select-attachments/{claimid",
+								{ _index: 16, title: {}, description: { 13: {} } },
+							],
+							[
+								"api/time-track",
+								{ _index: 50, title: { 51: {} }, description: { 51: {} } },
+							],
+							[
+								"api/time-tracking/create-new-record",
+								{ _index: 45, title: { 45: {} }, description: { 45: {} } },
+							],
+							[
 								"api/time-tracking/{userid",
-								{ _index: 44, title: { 44: {} }, description: { 44: {} } },
+								{ _index: 46, title: { 46: {} }, description: { 46: {} } },
 							],
 							[
 								"api/time-tracking/{userid}/{claimid",
 								{
-									_index: 45,
-									title: { 45: {}, 46: {} },
-									description: { 45: {}, 46: {} },
+									_index: 47,
+									title: { 47: {}, 48: {} },
+									description: { 47: {}, 48: {} },
 								},
 							],
 							[
 								"api/time-tracking/{userid}/{claimid}/end",
-								{ _index: 47, title: { 48: {} }, description: { 48: {} } },
+								{ _index: 49, title: { 50: {} }, description: { 50: {} } },
 							],
 							[
 								"api/time-tracking/{userid}/{claimid}/start",
-								{ _index: 46, title: { 47: {} }, description: { 47: {} } },
-							],
-							[
-								"api/us",
-								{
-									_index: 50,
-									title: { 51: {}, 52: {} },
-									description: { 51: {}, 52: {} },
-								},
+								{ _index: 48, title: { 49: {} }, description: { 49: {} } },
 							],
 							[
 								"claimcraft.api",
-								{ _index: 8, title: { 8: {} }, description: {} },
+								{ _index: 10, title: { 10: {} }, description: {} },
 							],
 							[
 								"claimdetailendpoint",
-								{ _index: 15, title: { 12: {} }, description: {} },
+								{ _index: 17, title: { 14: {} }, description: {} },
 							],
 							[
 								"claimdocumentendpoint",
-								{ _index: 19, title: { 18: {} }, description: {} },
+								{ _index: 21, title: { 20: {} }, description: {} },
 							],
 							[
 								"claimreportendpoint",
-								{ _index: 24, title: { 24: {} }, description: {} },
+								{ _index: 26, title: { 26: {} }, description: {} },
 							],
 							[
 								"claimreservesummaryendpoint",
-								{ _index: 27, title: { 29: {} }, description: {} },
+								{ _index: 29, title: { 31: {} }, description: {} },
 							],
 							[
 								"compilefinalreport",
-								{ _index: 11, title: { 10: {} }, description: {} },
+								{ _index: 13, title: { 12: {} }, description: {} },
 							],
 							[
 								"compilereport",
-								{ _index: 9, title: { 9: {} }, description: {} },
+								{ _index: 11, title: { 11: {} }, description: {} },
 							],
 							[
 								"contentsdamageendpoint",
-								{ _index: 30, title: { 34: {} }, description: {} },
+								{ _index: 32, title: { 36: {} }, description: {} },
 							],
-							["coverag", { _index: 32, title: { 36: {} }, description: {} }],
+							["coverag", { _index: 34, title: { 38: {} }, description: {} }],
 							[
 								"generateinitialsummari",
-								{ _index: 38, title: { 39: {} }, description: {} },
+								{ _index: 40, title: { 41: {} }, description: {} },
 							],
-							["initi", { _index: 36, title: { 38: {} }, description: {} }],
+							["initi", { _index: 38, title: { 40: {} }, description: {} }],
 							[
 								"propertydamageendpoint",
-								{ _index: 40, title: { 40: {} }, description: {} },
-							],
-							[
-								"selectattach",
-								{ _index: 13, title: { 11: {} }, description: {} },
-							],
-							["summari", { _index: 37, title: { 38: {} }, description: {} }],
-							[
-								"timetrackingrecordendpoint",
 								{ _index: 42, title: { 42: {} }, description: {} },
 							],
 							[
-								"userendpoint",
-								{ _index: 49, title: { 50: {} }, description: {} },
+								"selectattach",
+								{ _index: 15, title: { 13: {} }, description: {} },
+							],
+							["summari", { _index: 39, title: { 40: {} }, description: {} }],
+							[
+								"timetrackingrecordendpoint",
+								{ _index: 44, title: { 44: {} }, description: {} },
 							],
 						],
 						pipeline: [],
